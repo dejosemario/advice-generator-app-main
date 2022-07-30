@@ -20,8 +20,6 @@
 }
 
 .Content{
-    display: flex;
-    flex-wrap: no-wrap;
     text-align: center;
 }
 
@@ -41,5 +39,16 @@
     border-radius: 50%;
     text-align: center;
     Box-shadow: 0px 4px 32px 1px #00000029;
+    cursor: pointer;
 }
 
+.Btn__Dice img{
+    text-align:center;
+    top:15%;
+    position:relative; /*makes left effective*/    
+}
+
+.Btn __Dice:hover{
+    background-color: hsl(150, 64%, 84%);
+    /* transition: 0.3s; */
+}
