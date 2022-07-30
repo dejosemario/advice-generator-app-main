@@ -10,17 +10,19 @@
     position: relative;
 }
 
-.Header, .Content{
-    margin-bottom: 30px;
-    width: 100%;
-}
-
 .Header{
     text-align: center;
+    color: hsl(150, 100%, 66%);
+    font-size: 0.7em;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    width: 100%;
 }
 
 .Content{
     text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .Divider{
