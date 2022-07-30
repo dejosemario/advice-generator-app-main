@@ -48,7 +48,6 @@
     position:relative; /*makes left effective*/    
 }
 
-.Btn __Dice:hover{
-    background-color: hsl(150, 64%, 84%);
-    /* transition: 0.3s; */
+.Btn__Dice:hover{
+    box-shadow: 0px 4.5px 35px 1px hsl(150, 100%, 66%);
 }
