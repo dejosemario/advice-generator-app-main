@@ -4,7 +4,7 @@ import PatternDivider from "./pattern-divider-desktop.svg";
 import IconDice from "./icon-dice.svg";
 
 function App() {
-  const [content, setContent] = useState("I am a boy");
+  const [content, setContent] = useState("Click on the buton for your daily advice!");
 
   async function handleClick(e){
     e.preventDefault();
