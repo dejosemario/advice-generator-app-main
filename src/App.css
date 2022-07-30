@@ -1,0 +1,45 @@
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(217, 19%, 24%);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    position: relative;
+}
+
+.Header, .Content{
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.Header{
+    text-align: center;
+}
+
+.Content{
+    display: flex;
+    flex-wrap: no-wrap;
+    text-align: center;
+}
+
+.Divider{
+    margin-bottom: 20px;
+}
+
+
+
+.Btn__Dice{
+  position: absolute;
+    bottom: -20px;
+    background-color: hsl(150, 100%, 66%);
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    Box-shadow: 0px 4px 32px 1px #00000029;
+}
+
