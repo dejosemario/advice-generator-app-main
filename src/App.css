@@ -6,16 +6,18 @@
     background-color: hsl(217, 19%, 24%);
     padding: 30px;
     border-radius: 10px;
-    max-width: 400px;
+    max-width: 600px;
     position: relative;
+    font-size: 28px;
 }
 
 .Header{
     text-align: center;
     color: hsl(150, 100%, 66%);
-    font-size: 0.7em;
+    font-size: 0.6em;
     letter-spacing: 3px;
     margin-bottom: 10px;
+    margin-top: 20px;
     width: 100%;
 }
 
@@ -26,7 +28,11 @@
 }
 
 .Divider{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.Divider img{
+    /* width: 340px; */
 }
 
 
@@ -36,8 +42,8 @@
     bottom: -20px;
     background-color: hsl(150, 100%, 66%);
     padding: 10px;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
     text-align: center;
     Box-shadow: 0px 4px 32px 1px #00000029;
@@ -46,10 +52,31 @@
 
 .Btn__Dice img{
     text-align:center;
-    top:15%;
+    top:18%;
     position:relative; /*makes left effective*/    
 }
 
 .Btn__Dice:hover{
     box-shadow: 0px 4.5px 35px 1px hsl(150, 100%, 66%);
 }
+
+@media screen and (max-width: 374px){
+    .App{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: hsl(217, 19%, 24%);
+        padding: 30px;
+        border-radius: 10px;
+        max-width: 300px;
+        position: relative;
+        font-size: 20px;
+
+    }
+
+    .Divider img{
+        width: 240px;
+    }
+}
+
